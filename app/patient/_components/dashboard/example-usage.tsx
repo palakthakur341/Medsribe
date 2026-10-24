@@ -29,14 +29,14 @@ export function ExampleDashboardUsage() {
     {
       _id: "1",
       doctor: { firstName: "John", lastName: "Smith" },
-      appointmentDateTime: "2024-01-15T10:00:00Z",
+      appointmentDateTime: "2026-01-15T10:00:00Z",
       status: "confirmed",
       reason: "Regular checkup"
     },
     {
       _id: "2", 
       doctor: { firstName: "Jane", lastName: "Doe" },
-      appointmentDateTime: "2024-01-20T14:30:00Z",
+      appointmentDateTime: "2026-01-20T14:30:00Z",
       status: "pending",
       reason: "Follow-up consultation"
     }

@@ -19,10 +19,10 @@ async function testEnhancedSOAPRAG() {
     const createEmbedPayload = {
       doctor_id: "jn749jfsf5vmg6cqbarkj0bwk17h52yh",
       event_type: "soap_note_created",
-      data: "SOAP note created for patient Hariom Suthar visit on 25/07/2025 [AI Enhanced Analysis]. Chief complaint: Kidney function concerns. Subjective: Patient reports decreased urination and swelling in legs. Objective: BP 140/90, HR 78, mild pedal edema noted. Assessment: Possible kidney dysfunction, requires further evaluation. Plan: Order comprehensive metabolic panel, urine analysis, and nephrology consultation. Primary Diagnosis: Chronic kidney disease stage 3. Medications: Lisinopril 10mg daily, Furosemide 20mg daily. Follow-up: Return in 2 weeks for lab results review. Quality Score: 95%. Safety Status: Safe.",
+      data: "SOAP note created for patient  Palak Thakur visit on 25/07/2026 [AI Enhanced Analysis]. Chief complaint: Kidney function concerns. Subjective: Patient reports decreased urination and swelling in legs. Objective: BP 140/90, HR 78, mild pedal edema noted. Assessment: Possible kidney dysfunction, requires further evaluation. Plan: Order comprehensive metabolic panel, urine analysis, and nephrology consultation. Primary Diagnosis: Chronic kidney disease stage 3. Medications: Lisinopril 10mg daily, Furosemide 20mg daily. Follow-up: Return in 2 weeks for lab results review. Quality Score: 95%. Safety Status: Safe.",
       metadata: {
         soap_note_id: "test_soap_001",
-        patient_name: "Hariom Suthar",
+        patient_name: "Palak Thakur",
         patient_id: "patient_123",
         appointment_id: "apt_456",
         chief_complaint: "Kidney function concerns",
@@ -33,7 +33,7 @@ async function testEnhancedSOAPRAG() {
         safety_status: true,
         has_enhanced_data: true,
         specialty: "Nephrology",
-        created_date: "25/07/2025"
+        created_date: "25/07/2026"
       }
     };
 
@@ -59,18 +59,18 @@ async function testEnhancedSOAPRAG() {
     const shareEmbedPayload = {
       doctor_id: "jn749jfsf5vmg6cqbarkj0bwk17h52yh",
       event_type: "soap_note_shared_out",
-      data: "SOAP note shared with colleague on 25/07/2025 for patient Hariom Suthar. Patient case shared for: Second opinion on kidney function decline. Permissions: view. Expires: 01/08/2025. Message: Please review this patient's kidney function and provide recommendations.",
+      data: "SOAP note shared with colleague on 25/07/2026 for patient Palak Thakur. Patient case shared for: Second opinion on kidney function decline. Permissions: view. Expires: 01/08/2026. Message: Please review this patient's kidney function and provide recommendations.",
       metadata: {
         share_id: "share_001",
         soap_note_id: "test_soap_001",
-        patient_name: "Hariom Suthar",
+        patient_name: " Palak Thakur",
         patient_id: "patient_123",
         from_doctor_id: "jn749jfsf5vmg6cqbarkj0bwk17h52yh",
         to_doctor_id: "doctor_456",
         share_reason: "Second opinion on kidney function decline",
         permissions: "view",
-        expires_at: "01/08/2025",
-        shared_date: "25/07/2025"
+        expires_at: "01/08/2026",
+        shared_date: "25/07/2026"
       }
     };
 
@@ -96,17 +96,17 @@ async function testEnhancedSOAPRAG() {
     const actionEmbedPayload = {
       doctor_id: "jn749jfsf5vmg6cqbarkj0bwk17h52yh",
       event_type: "soap_note_reviewed",
-      data: "SOAP note reviewed on 25/07/2025 for patient Hariom Suthar. Comments: Excellent documentation. Patient's kidney function decline is well documented. Recommend immediate nephrology referral. Changes: Added urgency flag to nephrology consultation. Reason: Patient requires specialist evaluation within 48 hours.",
+      data: "SOAP note reviewed on 25/07/2026 for patient  Palak Thakur. Comments: Excellent documentation. Patient's kidney function decline is well documented. Recommend immediate nephrology referral. Changes: Added urgency flag to nephrology consultation. Reason: Patient requires specialist evaluation within 48 hours.",
       metadata: {
         action_id: "action_001",
         soap_note_id: "test_soap_001",
-        patient_name: "Hariom Suthar",
+        patient_name: "Palak Thakur",
         patient_id: "patient_123",
         action_type: "reviewed",
         comments: "Excellent documentation. Recommend immediate nephrology referral.",
         changes: "Added urgency flag to nephrology consultation",
         reason: "Patient requires specialist evaluation within 48 hours",
-        action_date: "25/07/2025"
+        action_date: "25/07/2026"
       }
     };
 
@@ -134,7 +134,7 @@ async function testEnhancedSOAPRAG() {
     
     const searchSOAPPayload = {
       doctor_id: "jn749jfsf5vmg6cqbarkj0bwk17h52yh",
-      query: "What SOAP notes were created for Hariom Suthar? Show me his kidney function assessment and medications.",
+      query: "What SOAP notes were created for Palak Thakur? Show me his kidney function assessment and medications.",
       similarity_threshold: 0.3,
       max_results: 10
     };
@@ -161,7 +161,7 @@ async function testEnhancedSOAPRAG() {
     
     const searchSharedPayload = {
       doctor_id: "jn749jfsf5vmg6cqbarkj0bwk17h52yh",
-      query: "What SOAP notes did I share with colleagues for Hariom Suthar? What was the reason for sharing?",
+      query: "What SOAP notes did I share with colleagues for Palak Thakur? What was the reason for sharing?",
       similarity_threshold: 0.3,
       max_results: 10
     };

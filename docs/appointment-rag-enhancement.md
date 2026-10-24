@@ -9,7 +9,7 @@
 
 **After:** Appointment data now includes actual patient and doctor names:
 ```
-"Appointment scheduled with patient Hariom Suthar for diabetes follow-up consultation. Date: 30/07/2025 at 2:30 PM. Type: follow_up. Location: in_person (123 Medical Center Drive, Suite 200). Patient should bring recent blood sugar logs."
+"Appointment scheduled with patient Palak Thakur for diabetes follow-up consultation. Date: 30/07/2026 at 2:30 PM. Type: follow_up. Location: in_person (123 Medical Center Drive, Suite 200). Patient should bring recent blood sugar logs."
 ```
 
 ## 🔧 Changes Made
@@ -65,28 +65,28 @@ const metadata = {
 
 ### Appointment Scheduled
 ```
-"Appointment scheduled with patient Hariom Suthar for diabetes follow-up consultation. Date: 30/07/2025 at 2:30 PM. Type: follow_up. Location: in_person (123 Medical Center Drive, Suite 200). Patient should bring recent blood sugar logs."
+"Appointment scheduled with patient Palak Thakur for diabetes follow-up consultation. Date: 30/07/2026 at 2:30 PM. Type: follow_up. Location: in_person (123 Medical Center Drive, Suite 200). Patient should bring recent blood sugar logs."
 ```
 
 ### Appointment Cancelled
 ```
-"Appointment cancelled with patient Hariom Suthar for 30/07/2025 at 2:30 PM. Reason: Patient requested reschedule. Patient visit: diabetes follow-up consultation"
+"Appointment cancelled with patient Palak Thakur for 30/07/6 at 2:30 PM. Reason: Patient requested reschedule. Patient visit: diabetes follow-up consultation"
 ```
 
 ### Appointment Completed
 ```
-"Appointment completed with patient Hariom Suthar for diabetes follow-up consultation. Date: 30/07/2025. Duration: 45 minutes. Notes: Patient's blood sugar levels are well controlled."
+"Appointment completed with patient Palak Thakur for diabetes follow-up consultation. Date: 30/07/2026. Duration: 45 minutes. Notes: Patient's blood sugar levels are well controlled."
 ```
 
 ## 🔍 Search Improvements
 
 ### Before Enhancement
-- ❌ Search for "Hariom Suthar" returned no results
+- ❌ Search for "Palak Thakur" returned no results
 - ❌ Generic appointment descriptions
 - ❌ Limited context for AI responses
 
 ### After Enhancement
-- ✅ Search for "Hariom Suthar" returns relevant appointments
+- ✅ Search for "Palak Thakur" returns relevant appointments
 - ✅ Detailed appointment descriptions with patient names
 - ✅ Rich context for AI Medical Assistant responses
 - ✅ Better patient-specific recommendations
@@ -107,7 +107,7 @@ The test verifies:
 ## 🚀 Impact
 
 ### For Doctors
-- Search "Hariom Suthar" to find all appointments with that patient
+- Search "Palak Thakur" to find all appointments with that patient
 - Get detailed appointment context in AI responses
 - Better patient history tracking
 
@@ -146,4 +146,4 @@ The test verifies:
 - [x] Test script created and verified
 - [x] Documentation updated
 
-The appointment RAG system now provides rich, searchable appointment data with actual patient and doctor names, enabling powerful search capabilities like "Show me all appointments with Hariom Suthar" or "What was discussed in John's last appointment?"
+The appointment RAG system now provides rich, searchable appointment data with actual patient and doctor names, enabling powerful search capabilities like "Show me all appointments with Palak Thakur" or "What was discussed in John's last appointment?"

@@ -918,7 +918,7 @@ export default function SOAPPage() {
                 </div>
 
                 <div className="mt-20 pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center text-xs text-muted-foreground gap-4">
-                    <p>© 2024 MedScribe Inc. | All rights reserved.</p>
+                    <p>© 2026 MedScribe Inc. | All rights reserved.</p>
                     <div className="flex gap-4">
                         <button onClick={() => handleNavigation('/privacy')} className="hover:text-primary transition-colors">Privacy Policy</button>
                         <button onClick={() => handleNavigation('/terms')} className="hover:text-primary transition-colors">Terms of Service</button>

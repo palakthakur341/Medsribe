@@ -1172,7 +1172,7 @@ const App: React.FC = () => {
           </div>
 
           <div className="mt-12 pt-8 border-t border-border text-xs text-muted-foreground">
-            <p>© 2024 MedScribe Inc. | All rights reserved.</p>
+            <p>© 2026 MedScribe Inc. | All rights reserved.</p>
           </div>
 
           {/* Abstract glow effect */}

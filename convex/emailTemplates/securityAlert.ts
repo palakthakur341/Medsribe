@@ -221,7 +221,7 @@ export function generateSecurityAlertEmail(
               This is an automated security alert from MedScribe.
             </p>
             <p style="color: #6b7280; margin: 0; font-size: 12px;">
-              © 2024 MedScribe. All rights reserved.<br>
+              © 2026 MedScribe. All rights reserved.<br>
               This email was sent to ${email}
             </p>
           </div>

@@ -955,7 +955,7 @@ export default defineSchema({
   // Generated Time Slots - Pre-generated available time slots
   timeSlots: defineTable({
     doctorId: v.id("doctors"),
-    date: v.string(),        // "2025-07-15"
+    date: v.string(),        // "2026-07-15"
     time: v.string(),        // "09:00"
     endTime: v.string(),     // "09:30"
     slotType: v.union(
@@ -986,7 +986,7 @@ export default defineSchema({
   // Doctor Exceptions - Handle unavailability (vacation, sick days, etc.)
   doctorExceptions: defineTable({
     doctorId: v.id("doctors"),
-    date: v.string(),        // "2025-07-15"
+    date: v.string(),        // "2026-07-15"
     exceptionType: v.union(
       v.literal("vacation"),
       v.literal("sick"),

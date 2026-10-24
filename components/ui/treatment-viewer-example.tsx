@@ -26,8 +26,8 @@ const exampleTreatment: TreatmentPlan = {
     "Establish regular monitoring routine"
   ],
   status: "active",
-  startDate: "2024-01-15",
-  endDate: "2024-07-15",
+  startDate: "2026-01-15",
+  endDate: "2026-07-15",
   createdAt: Date.now() - 86400000, // 1 day ago
   updatedAt: Date.now(),
   

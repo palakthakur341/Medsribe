@@ -49,7 +49,7 @@ import { generateAppointmentReminderEmail } from './emailTemplates/appointmentRe
 
 const appointmentDetails = {
   id: "apt-123",
-  date: "2024-01-15",
+  date: "2026-01-15",
   time: "10:00 AM",
   duration: 30,
   type: "Consultation",
@@ -73,12 +73,12 @@ import { generateAppointmentFollowupEmail } from './emailTemplates/appointmentFo
 
 const appointmentDetails = {
   id: "apt-123",
-  date: "2024-01-15",
+  date: "2026-01-15",
   time: "10:00 AM",
   type: "Consultation",
   diagnosis: "Common cold",
   prescriptions: ["Paracetamol 500mg", "Rest for 3 days"],
-  nextAppointment: "2024-01-22 at 2:00 PM",
+  nextAppointment: "2026-01-22 at 2:00 PM",
   instructions: "Take medication as prescribed and get plenty of rest."
 };
 
@@ -97,7 +97,7 @@ import { generateSecurityAlertEmail } from './emailTemplates/securityAlert';
 
 const alertDetails = {
   type: "login",
-  timestamp: "2024-01-15 10:30 AM",
+  timestamp: "2026-01-15 10:30 AM",
   location: "New York, NY",
   ipAddress: "192.168.1.1",
   device: "iPhone 15",
